@@ -1,0 +1,9 @@
+spring:
+  datasource:
+  url: jdbc:${URL_DO_BANCO_DE_DADOS}
+  username: ${PGUSER}
+  password: ${PGPASSWORD}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
